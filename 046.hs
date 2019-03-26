@@ -1,3 +1,6 @@
+data Movimento = Norte | Sul | Este | Oeste
+               deriving Show
+
 vertical :: [Movimento] -> Bool
 vertical [Norte] = True
 vertical [Sul] = True
